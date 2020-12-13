@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="七月的博客">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="七月的博客">
+<meta property="og:locale">
+<meta property="article:author" content="七月">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'zh-Hans'
+  };
+</script>
+
+  <title>七月的博客</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">七月的博客</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content index posts-expand">
+            
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/12/13/elasticsearch%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/timg.jpeg">
+      <meta itemprop="name" content="七月">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="七月的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/12/13/elasticsearch%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/" class="post-title-link" itemprop="url">elasticsearch基础入门</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2020-12-13 16:53:15 / Modified: 16:53:33" itemprop="dateCreated datePublished" datetime="2020-12-13T16:53:15+08:00">2020-12-13</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="Docker安装ES"><a href="#Docker安装ES" class="headerlink" title="Docker安装ES"></a>Docker安装ES</h1><ul>
+<li>下载ES镜像<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull docker.elastic.co/elasticsearch/elasticsearch:7.9.0</span><br></pre></td></tr></table></figure></li>
+<li>开启单节点集群<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -p 9200:9200 -p 9300:9300 -e <span class="string">&quot;discovery.type=single-node&quot;</span> docker.elastic.co/elasticsearch/elasticsearch:7.9.0</span><br></pre></td></tr></table></figure></li>
+<li>开启多节点集群</li>
+</ul>
+<ol>
+<li>创建 <strong>docker-compose.yml</strong> 文件<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">&#x27;2.2&#x27;</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">es01:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">docker.elastic.co/elasticsearch/elasticsearch:7.9.0</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">es01</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">node.name=es01</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">cluster.name=es-docker-cluster</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">discovery.seed_hosts=es02,es03</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">cluster.initial_master_nodes=es01,es02,es03</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">bootstrap.memory_lock=true</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">&quot;ES_JAVA_OPTS=-Xms512m -Xmx512m&quot;</span></span><br><span class="line">    <span class="attr">ulimits:</span></span><br><span class="line">      <span class="attr">memlock:</span></span><br><span class="line">        <span class="attr">soft:</span> <span class="number">-1</span></span><br><span class="line">        <span class="attr">hard:</span> <span class="number">-1</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">data01:/usr/share/elasticsearch/data</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="number">9200</span><span class="string">:9200</span></span><br><span class="line">    <span class="attr">networks:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">elastic</span></span><br><span class="line">  <span class="attr">es02:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">docker.elastic.co/elasticsearch/elasticsearch:7.9.0</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">es02</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">node.name=es02</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">cluster.name=es-docker-cluster</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">discovery.seed_hosts=es01,es03</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">cluster.initial_master_nodes=es01,es02,es03</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">bootstrap.memory_lock=true</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">&quot;ES_JAVA_OPTS=-Xms512m -Xmx512m&quot;</span></span><br><span class="line">    <span class="attr">ulimits:</span></span><br><span class="line">      <span class="attr">memlock:</span></span><br><span class="line">        <span class="attr">soft:</span> <span class="number">-1</span></span><br><span class="line">        <span class="attr">hard:</span> <span class="number">-1</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">data02:/usr/share/elasticsearch/data</span></span><br><span class="line">    <span class="attr">networks:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">elastic</span></span><br><span class="line">  <span class="attr">es03:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">docker.elastic.co/elasticsearch/elasticsearch:7.9.0</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">es03</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">node.name=es03</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">cluster.name=es-docker-cluster</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">discovery.seed_hosts=es01,es02</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">cluster.initial_master_nodes=es01,es02,es03</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">bootstrap.memory_lock=true</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">&quot;ES_JAVA_OPTS=-Xms512m -Xmx512m&quot;</span></span><br><span class="line">    <span class="attr">ulimits:</span></span><br><span class="line">      <span class="attr">memlock:</span></span><br><span class="line">        <span class="attr">soft:</span> <span class="number">-1</span></span><br><span class="line">        <span class="attr">hard:</span> <span class="number">-1</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">data03:/usr/share/elasticsearch/data</span></span><br><span class="line">    <span class="attr">networks:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">elastic</span></span><br><span class="line"></span><br><span class="line"><span class="attr">volumes:</span></span><br><span class="line">  <span class="attr">data01:</span></span><br><span class="line">    <span class="attr">driver:</span> <span class="string">local</span></span><br><span class="line">  <span class="attr">data02:</span></span><br><span class="line">    <span class="attr">driver:</span> <span class="string">local</span></span><br><span class="line">  <span class="attr">data03:</span></span><br><span class="line">    <span class="attr">driver:</span> <span class="string">local</span></span><br><span class="line"></span><br><span class="line"><span class="attr">networks:</span></span><br><span class="line">  <span class="attr">elastic:</span></span><br><span class="line">    <span class="attr">driver:</span> <span class="string">bridge</span></span><br></pre></td></tr></table></figure></li>
+<li>开启集群<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker-compose up</span><br></pre></td></tr></table></figure></li>
+<li>命令查看是否启动<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -X GET &quot;localhost:9200&#x2F;_cat&#x2F;nodes?v&amp;pretty&quot;</span><br></pre></td></tr></table></figure></li>
+</ol>
+<ul>
+<li>谷歌浏览器ES插件 </li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://chrome.google.com/webstore/detail/elasticsearch-head/ffmkiejjmecolpfloofpjologoblkegm/">https://chrome.google.com/webstore/detail/elasticsearch-head/ffmkiejjmecolpfloofpjologoblkegm/</a></p>
+<h1 id="索引的含义"><a href="#索引的含义" class="headerlink" title="索引的含义"></a>索引的含义</h1><ul>
+<li>索引（名词）：</li>
+</ul>
+<p>如前所述，一个 索引 类似于传统关系数据库中的一个 数据库 ，是一个存储关系型文档的地方。 索引 (index) 的复数词为 indices 或 indexes 。</p>
+<ul>
+<li>索引（动词）：</li>
+</ul>
+<p>索引一个文档 就是存储一个文档到一个 索引 （名词）中以便被检索和查询。这非常类似于 SQL 语句中的 INSERT 关键词，除了文档已存在时，新文档会替换旧文档情况之外。</p>
+<ul>
+<li>倒排索引：</li>
+</ul>
+<p>关系型数据库通过增加一个 索引 比如一个 B树（B-tree）索引 到指定的列上，以便提升数据检索速度。Elasticsearch 和 Lucene 使用了一个叫做 倒排索引 的结构来达到相同的目的。</p>
+<h1 id="检索的使用"><a href="#检索的使用" class="headerlink" title="检索的使用"></a>检索的使用</h1><ul>
+<li>直接根据id获取文件<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET /megacorp/employee/1</span><br></pre></td></tr></table></figure></li>
+<li>使用_search查询所有<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET /megacorp/employee/_search</span><br></pre></td></tr></table></figure></li>
+<li>DSL表达式搜索<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">GET /megacorp/employee/_search</span><br><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;query&quot;</span> : &#123;</span><br><span class="line">        <span class="attr">&quot;match&quot;</span> : &#123;</span><br><span class="line">            <span class="attr">&quot;last_name&quot;</span> : <span class="string">&quot;Smith&quot;</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">GET /megacorp/employee/_search</span><br><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;query&quot;</span> : &#123;</span><br><span class="line">        <span class="attr">&quot;bool&quot;</span>: &#123;</span><br><span class="line">            <span class="attr">&quot;must&quot;</span>: &#123;</span><br><span class="line">                <span class="attr">&quot;match&quot;</span> : &#123;</span><br><span class="line">                    <span class="attr">&quot;last_name&quot;</span> : <span class="string">&quot;smith&quot;</span> </span><br><span class="line">                &#125;</span><br><span class="line">            &#125;,</span><br><span class="line">            <span class="attr">&quot;filter&quot;</span>: &#123;</span><br><span class="line">                <span class="attr">&quot;range&quot;</span> : &#123;</span><br><span class="line">                    <span class="attr">&quot;age&quot;</span> : &#123; <span class="attr">&quot;gt&quot;</span> : <span class="number">30</span> &#125; </span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li>全文搜索<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">GET /megacorp/employee/_search</span><br><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;query&quot;</span> : &#123;</span><br><span class="line">        <span class="attr">&quot;match&quot;</span> : &#123;</span><br><span class="line">            <span class="attr">&quot;about&quot;</span> : <span class="string">&quot;rock climbing&quot;</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+result: 得分不同<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">   ...</span><br><span class="line">   &quot;hits&quot;: &#123;</span><br><span class="line">      &quot;total&quot;:      2,</span><br><span class="line">      &quot;max_score&quot;:  0.16273327,</span><br><span class="line">      &quot;hits&quot;: [</span><br><span class="line">         &#123;</span><br><span class="line">            ...</span><br><span class="line">            &quot;_score&quot;:         0.16273327, </span><br><span class="line">            &quot;_source&quot;: &#123;</span><br><span class="line">               &quot;first_name&quot;:  &quot;John&quot;,</span><br><span class="line">               &quot;last_name&quot;:   &quot;Smith&quot;,</span><br><span class="line">               &quot;age&quot;:         25,</span><br><span class="line">               &quot;about&quot;:       &quot;I love to go rock climbing&quot;,</span><br><span class="line">               &quot;interests&quot;: [ &quot;sports&quot;, &quot;music&quot; ]</span><br><span class="line">            &#125;</span><br><span class="line">         &#125;,</span><br><span class="line">         &#123;</span><br><span class="line">            ...</span><br><span class="line">            &quot;_score&quot;:         0.016878016, </span><br><span class="line">            &quot;_source&quot;: &#123;</span><br><span class="line">               &quot;first_name&quot;:  &quot;Jane&quot;,</span><br><span class="line">               &quot;last_name&quot;:   &quot;Smith&quot;,</span><br><span class="line">               &quot;age&quot;:         32,</span><br><span class="line">               &quot;about&quot;:       &quot;I like to collect rock albums&quot;,</span><br><span class="line">               &quot;interests&quot;: [ &quot;music&quot; ]</span><br><span class="line">            &#125;</span><br><span class="line">         &#125;</span><br><span class="line">      ]</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li>短语搜索<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">GET &#x2F;megacorp&#x2F;employee&#x2F;_search</span><br><span class="line">&#123;</span><br><span class="line">    &quot;query&quot; : &#123;</span><br><span class="line">        &quot;match_phrase&quot; : &#123;</span><br><span class="line">            &quot;about&quot; : &quot;rock climbing&quot;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+匹配同时包含 “rock” 和 “climbing” ，并且 二者以短语 “rock climbing” 的形式紧挨着。<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">   ...</span><br><span class="line">   &quot;hits&quot;: &#123;</span><br><span class="line">      &quot;total&quot;:      1,</span><br><span class="line">      &quot;max_score&quot;:  0.23013961,</span><br><span class="line">      &quot;hits&quot;: [</span><br><span class="line">         &#123;</span><br><span class="line">            ...</span><br><span class="line">            &quot;_score&quot;:         0.23013961,</span><br><span class="line">            &quot;_source&quot;: &#123;</span><br><span class="line">               &quot;first_name&quot;:  &quot;John&quot;,</span><br><span class="line">               &quot;last_name&quot;:   &quot;Smith&quot;,</span><br><span class="line">               &quot;age&quot;:         25,</span><br><span class="line">               &quot;about&quot;:       &quot;I love to go rock climbing&quot;,</span><br><span class="line">               &quot;interests&quot;: [ &quot;sports&quot;, &quot;music&quot; ]</span><br><span class="line">            &#125;</span><br><span class="line">         &#125;</span><br><span class="line">      ]</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li>高亮搜索<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">GET /megacorp/employee/_search</span><br><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;query&quot;</span> : &#123;</span><br><span class="line">        <span class="attr">&quot;match_phrase&quot;</span> : &#123;</span><br><span class="line">            <span class="attr">&quot;about&quot;</span> : <span class="string">&quot;rock climbing&quot;</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">&quot;highlight&quot;</span>: &#123;</span><br><span class="line">        <span class="attr">&quot;fields&quot;</span> : &#123;</span><br><span class="line">            <span class="attr">&quot;about&quot;</span> : &#123;&#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+高亮搜索时候加入了HTML标签 <code class="literal">&lt;em&gt;&lt;/em&gt;</code></li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">   ...</span><br><span class="line">   &quot;hits&quot;: &#123;</span><br><span class="line">      &quot;total&quot;:      1,</span><br><span class="line">      &quot;max_score&quot;:  0.23013961,</span><br><span class="line">      &quot;hits&quot;: [</span><br><span class="line">         &#123;</span><br><span class="line">            ...</span><br><span class="line">            &quot;_score&quot;:         0.23013961,</span><br><span class="line">            &quot;_source&quot;: &#123;</span><br><span class="line">               &quot;first_name&quot;:  &quot;John&quot;,</span><br><span class="line">               &quot;last_name&quot;:   &quot;Smith&quot;,</span><br><span class="line">               &quot;age&quot;:         25,</span><br><span class="line">               &quot;about&quot;:       &quot;I love to go rock climbing&quot;,</span><br><span class="line">               &quot;interests&quot;: [ &quot;sports&quot;, &quot;music&quot; ]</span><br><span class="line">            &#125;,</span><br><span class="line">            &quot;highlight&quot;: &#123;</span><br><span class="line">               &quot;about&quot;: [</span><br><span class="line">                  <span class="string">&quot;I love to go &lt;em&gt;rock&lt;/em&gt; &lt;em&gt;climbing&lt;/em&gt;&quot;</span> </span><br><span class="line">               ]</span><br><span class="line">            &#125;</span><br><span class="line">         &#125;</span><br><span class="line">      ]</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>聚合查询   </li>
+</ul>
+<p>Elasticsearch 有一个功能叫聚合（aggregations），允许我们基于数据生成一些精细的分析结果。聚合与 SQL 中的 GROUP BY 类似但更强大。</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">GET /megacorp/employee/_search</span><br><span class="line">&#123;</span><br><span class="line">  <span class="attr">&quot;aggs&quot;</span>: &#123;</span><br><span class="line">    <span class="attr">&quot;all_interests&quot;</span>: &#123;</span><br><span class="line">      <span class="attr">&quot;terms&quot;</span>: &#123; <span class="attr">&quot;field&quot;</span>: <span class="string">&quot;interests&quot;</span> &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">   ...</span><br><span class="line">   &quot;hits&quot;: &#123; ... &#125;,</span><br><span class="line">   &quot;aggregations&quot;: &#123;</span><br><span class="line">      &quot;all_interests&quot;: &#123;</span><br><span class="line">         &quot;buckets&quot;: [</span><br><span class="line">            &#123;</span><br><span class="line">               <span class="attr">&quot;key&quot;</span>:       <span class="string">&quot;music&quot;</span>,</span><br><span class="line">               <span class="attr">&quot;doc_count&quot;</span>: <span class="number">2</span></span><br><span class="line">            &#125;,</span><br><span class="line">            &#123;</span><br><span class="line">               <span class="attr">&quot;key&quot;</span>:       <span class="string">&quot;forestry&quot;</span>,</span><br><span class="line">               <span class="attr">&quot;doc_count&quot;</span>: <span class="number">1</span></span><br><span class="line">            &#125;,</span><br><span class="line">            &#123;</span><br><span class="line">               <span class="attr">&quot;key&quot;</span>:       <span class="string">&quot;sports&quot;</span>,</span><br><span class="line">               <span class="attr">&quot;doc_count&quot;</span>: <span class="number">1</span></span><br><span class="line">            &#125;</span><br><span class="line">         ]</span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>分级汇总</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">GET /megacorp/employee/_search</span><br><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;aggs&quot;</span> : &#123;</span><br><span class="line">        <span class="attr">&quot;all_interests&quot;</span> : &#123;</span><br><span class="line">            <span class="attr">&quot;terms&quot;</span> : &#123; <span class="attr">&quot;field&quot;</span> : <span class="string">&quot;interests&quot;</span> &#125;,</span><br><span class="line">            <span class="attr">&quot;aggs&quot;</span> : &#123;</span><br><span class="line">                <span class="attr">&quot;avg_age&quot;</span> : &#123;</span><br><span class="line">                    <span class="attr">&quot;avg&quot;</span> : &#123; <span class="attr">&quot;field&quot;</span> : <span class="string">&quot;age&quot;</span> &#125;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>结果</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line">&quot;all_interests&quot;: &#123;</span><br><span class="line">   &quot;buckets&quot;: [</span><br><span class="line">      &#123;</span><br><span class="line">         <span class="attr">&quot;key&quot;</span>: <span class="string">&quot;music&quot;</span>,</span><br><span class="line">         <span class="attr">&quot;doc_count&quot;</span>: <span class="number">2</span>,</span><br><span class="line">         <span class="attr">&quot;avg_age&quot;</span>: &#123;</span><br><span class="line">            <span class="attr">&quot;value&quot;</span>: <span class="number">28.5</span></span><br><span class="line">         &#125;</span><br><span class="line">      &#125;,</span><br><span class="line">      &#123;</span><br><span class="line">         <span class="attr">&quot;key&quot;</span>: <span class="string">&quot;forestry&quot;</span>,</span><br><span class="line">         <span class="attr">&quot;doc_count&quot;</span>: <span class="number">1</span>,</span><br><span class="line">         <span class="attr">&quot;avg_age&quot;</span>: &#123;</span><br><span class="line">            <span class="attr">&quot;value&quot;</span>: <span class="number">35</span></span><br><span class="line">         &#125;</span><br><span class="line">      &#125;,</span><br><span class="line">      &#123;</span><br><span class="line">         <span class="attr">&quot;key&quot;</span>: <span class="string">&quot;sports&quot;</span>,</span><br><span class="line">         <span class="attr">&quot;doc_count&quot;</span>: <span class="number">1</span>,</span><br><span class="line">         <span class="attr">&quot;avg_age&quot;</span>: &#123;</span><br><span class="line">            <span class="attr">&quot;value&quot;</span>: <span class="number">25</span></span><br><span class="line">         &#125;</span><br><span class="line">      &#125;</span><br><span class="line">   ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="分布式特性"><a href="#分布式特性" class="headerlink" title="分布式特性"></a>分布式特性</h1><p>Elasticsearch 天生就是分布式的，并且在设计时屏蔽了分布式的复杂性。</p>
+<p>Elasticsearch 在分布式方面几乎是透明的。教程中并不要求了解分布式系统、分片、集群发现或其他的各种分布式概念。</p>
+<p>参考文档：<a target="_blank" rel="noopener" href="https://www.elastic.co/guide/cn/elasticsearch/guide/current/index.html">https://www.elastic.co/guide/cn/elasticsearch/guide/current/index.html</a><br><a target="_blank" rel="noopener" href="https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html#docker-cli-run-dev-mode">https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html#docker-cli-run-dev-mode</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/12/13/winwin10-docker%E5%AE%89%E8%A3%85/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/timg.jpeg">
+      <meta itemprop="name" content="七月">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="七月的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/12/13/winwin10-docker%E5%AE%89%E8%A3%85/" class="post-title-link" itemprop="url">winwin10 docker安装</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2020-12-13 16:52:36 / Modified: 16:52:49" itemprop="dateCreated datePublished" datetime="2020-12-13T16:52:36+08:00">2020-12-13</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h1><p>系统环境：Windows 10 64bit</p>
+<p>Docker安装包：Docker for Windows Installer.exe</p>
+<h1 id="系统配置"><a href="#系统配置" class="headerlink" title="系统配置"></a>系统配置</h1><p>现在 Docker 有专门的 Win10 专业版系统的安装包，需要开启 Hyper-V。<br>右键点击左下角 -&gt; 应用和功能 -&gt; 程序和功能 -&gt; 打开Hyper-V</p>
+<h1 id="docker下载"><a href="#docker下载" class="headerlink" title="docker下载"></a>docker下载</h1><p>在 <a target="_blank" rel="noopener" href="https://www.docker.com/get-started">https://www.docker.com/get-started</a> 注册docker账号</p>
+<p>在 <a target="_blank" rel="noopener" href="https://hub.docker.com/?overlay=onboarding">https://hub.docker.com/?overlay=onboarding</a> 下载对应的windows版本，并按照相应的步骤配置</p>
+<h1 id="运行安装"><a href="#运行安装" class="headerlink" title="运行安装"></a>运行安装</h1><p>双击下载的 Docker for Windows Installer 安装文件，一路 Next，点击 Finish 完成安装。</p>
+<p>安装完成后，Docker 会自动启动。通知栏上会出现个小鲸鱼的图标，这表示 Docker 正在运行。</p>
+<p>我们可以在命令行执行 docker version 来查看版本号，docker run hello-world 来载入测试镜像测试。</p>
+<h1 id="镜像加速"><a href="#镜像加速" class="headerlink" title="镜像加速"></a>镜像加速</h1><p>Windows 10<br>对于使用 Windows 10 的系统，在系统右下角托盘 Docker 图标内右键菜单选择 Settings，打开配置窗口后左侧导航菜单选择 Daemon。在 Registrymirrors 一栏中填写加速器地址 <a target="_blank" rel="noopener" href="https://registry.docker-cn.com/">https://registry.docker-cn.com</a> ，之后点击 Apply 保存后 Docker 就会重启并应用配置的镜像地址了。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/12/13/elasticsearch%E6%95%B0%E6%8D%AE%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/timg.jpeg">
+      <meta itemprop="name" content="七月">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="七月的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/12/13/elasticsearch%E6%95%B0%E6%8D%AE%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA/" class="post-title-link" itemprop="url">elasticsearch数据输入输出</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2020-12-13 16:51:50 / Modified: 16:52:11" itemprop="dateCreated datePublished" datetime="2020-12-13T16:51:50+08:00">2020-12-13</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h1><ul>
+<li><strong>什么是文档</strong></li>
+</ul>
+<p>在 Elasticsearch 中，术语 文档 有着特定的含义。它是指最顶层或者根对象, 这个根对象被序列化成 JSON 并存储到 Elasticsearch 中，指定了唯一 ID。</p>
+<p><strong>_index</strong>  文档在哪存放<br><strong>_type</strong>  文档表示的对象类别<br><strong>_id</strong> 文档唯一标识</p>
+<ul>
+<li><strong>es和mysql相关概念的对应关系</strong></li>
+</ul>
+<p><img src="https://img2020.cnblogs.com/blog/794174/202005/794174-20200512142627745-604948898.png" alt="avatar"></p>
+<ul>
+<li><strong>使用自定义的id</strong><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">PUT /&#123;index&#125;/&#123;<span class="built_in">type</span>&#125;/&#123;id&#125;</span><br><span class="line">&#123;</span><br><span class="line">  <span class="string">&quot;field&quot;</span>: <span class="string">&quot;value&quot;</span>,</span><br><span class="line">  ...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li><strong>检查文档是否存在</strong></li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -i -XHEAD http://localhost:9200/website/blog/123</span><br></pre></td></tr></table></figure>
+
+<p>如果文档存在， Elasticsearch 将返回一个 200 ok 的状态码</p>
+<figure class="highlight http"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">HTTP/1.1 <span class="number">200</span> OK</span><br><span class="line"><span class="attribute">Content-Type</span>: text/plain; charset=UTF-8</span><br><span class="line"><span class="attribute">Content-Length</span>: 0</span><br></pre></td></tr></table></figure>
+<p>若文档不存在， Elasticsearch 将返回一个 404 Not Found 的状态码：</p>
+<figure class="highlight http"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">HTTP/1.1 <span class="number">404</span> Not Found</span><br><span class="line"><span class="attribute">Content-Type</span>: text/plain; charset=UTF-8</span><br><span class="line"><span class="attribute">Content-Length</span>: 0</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>更新文档</strong></li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">PUT /website/blog/123</span><br><span class="line">&#123;</span><br><span class="line">  <span class="string">&quot;title&quot;</span>: <span class="string">&quot;My first blog entry&quot;</span>,</span><br><span class="line">  <span class="string">&quot;text&quot;</span>:  <span class="string">&quot;I am starting to get the hang of this...&quot;</span>,</span><br><span class="line">  <span class="string">&quot;date&quot;</span>:  <span class="string">&quot;2014/01/02&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>响应中,已经增加了 <code class="literal">_version</code>字段，  <code class="literal">created</code> 字段设置为 <code class="literal">false</code></p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">&quot;_index&quot;</span> :   <span class="string">&quot;website&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;_type&quot;</span> :    <span class="string">&quot;blog&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;_id&quot;</span> :      <span class="string">&quot;123&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;_version&quot;</span> : <span class="number">2</span>,</span><br><span class="line">  <span class="attr">&quot;created&quot;</span>:   <span class="literal">false</span> </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>删除文档</strong></li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">DELETE /website/blog/123</span><br></pre></td></tr></table></figure>
+<p>如果文档没有找到，我们将得到 404 Not Found 的响应码和类似这样的响应体：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">&quot;found&quot;</span> :    <span class="literal">false</span>,</span><br><span class="line">  <span class="attr">&quot;_index&quot;</span> :   <span class="string">&quot;website&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;_type&quot;</span> :    <span class="string">&quot;blog&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;_id&quot;</span> :      <span class="string">&quot;123&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;_version&quot;</span> : <span class="number">4</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>文档部分更新</strong></li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">POST /website/blog/1/_update</span><br><span class="line">&#123;</span><br><span class="line">   &quot;doc&quot; : &#123;</span><br><span class="line">      &quot;tags&quot; : [ &quot;testing&quot; ],</span><br><span class="line">      &quot;views&quot;: 0</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>代价较小的批量操作</strong></li>
+</ul>
+<p>与 mget 可以使我们一次取回多个文档同样的方式， bulk API 允许在单个步骤中进行多次 create 、 index 、 update 或 delete 请求。 如果你需要索引一个数据流比如日志事件，它可以排队和索引数百或数千批次。</p>
+<p>bulk 与其他的请求体格式稍有不同，如下所示：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123; action: &#123; metadata &#125;&#125;\n</span><br><span class="line">&#123; request body        &#125;\n</span><br><span class="line">&#123; action: &#123; metadata &#125;&#125;\n</span><br><span class="line">&#123; request body        &#125;\n</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+
+<p>每行一定要以换行符(\n)结尾， 包括最后一行 。这些换行符被用作一个标记，可以有效分隔行。<br>这些行不能包含未转义的换行符，因为他们将会对解析造成干扰。这意味着这个 JSON 不 能使用 pretty 参数打印。</p>
+<p>action/metadata 行指定 哪一个文档 做 什么操作 。</p>
+<p>action 必须是以下选项之一:</p>
+<p><strong>create</strong><br>如果文档不存在，那么就创建它。详情请见 创建新文档。<br><strong>index</strong><br>创建一个新文档或者替换一个现有的文档。详情请见 索引文档 和 更新整个文档。<br><strong>update</strong><br>部分更新一个文档。详情请见 文档的部分更新。<br><strong>delete</strong><br>删除一个文档。详情请见 删除文档。</p>
+<h1 id="分布式存储"><a href="#分布式存储" class="headerlink" title="分布式存储"></a>分布式存储</h1><ul>
+<li><strong>分片存储</strong></li>
+</ul>
+<p>routing 是一个可变值，默认是文档的 _id ，也可以设置成一个自定义的值。 routing 通过 hash 函数生成一个数字，然后这个数字再除以 number_of_primary_shards （主分片的数量）后得到 余数 。这个分布在 0 到 number_of_primary_shards-1 之间的余数，就是我们所寻求的文档所在分片的位置。</p>
+<p>shard = hash(routing) % number_of_primary_shards</p>
+<ul>
+<li><strong>主分片和副本分片的交互</strong></li>
+</ul>
+<p>我们可以发送请求到集群中的任一节点。 每个节点都有能力处理任意请求。 每个节点都知道集群中任一文档位置，所以可以直接将请求转发到需要的节点上。</p>
+<p>当发送请求的时候， 为了扩展负载，更好的做法是轮询集群中所有的节点。</p>
+<ul>
+<li><strong>新建/索引/删除文档</strong></li>
+</ul>
+<p>新建、索引和删除 请求都是 写 操作， 必须在主分片上面完成之后才能被复制到相关的副本分片</p>
+<p><img src="https://www.elastic.co/guide/cn/elasticsearch/guide/current/images/elas_0402.png" alt="avator"></p>
+<p>以下是在主副分片和任何副本分片上面 成功新建，索引和删除文档所需要的步骤顺序：</p>
+<ol>
+<li>客户端向 Node 1 发送新建、索引或者删除请求。</li>
+<li>节点使用文档的 _id 确定文档属于分片 0 。请求会被转发到 Node 3，因为分片 0 的主分片目前被分配在 Node 3 上。</li>
+<li>Node 3 在主分片上面执行请求。如果成功了，它将请求并行转发到 Node 1 和 Node 2 的副本分片上。一旦所有的副本分片都报告成功, Node 3 将向协调节点报告成功，协调节点向客户端报告成功。</li>
+</ol>
+<ul>
+<li><strong>取回一个文档</strong></li>
+</ul>
+<p><img src="https://www.elastic.co/guide/cn/elasticsearch/guide/current/images/elas_0403.png" alt="avator"></p>
+<p>以下是从主分片或者副本分片检索文档的步骤顺序：</p>
+<p>1、客户端向 Node 1 发送获取请求。</p>
+<p>2、节点使用文档的 _id 来确定文档属于分片 0 。分片 0 的副本分片存在于所有的三个节点上。 在这种情况下，它将请求转发到 Node 2 。</p>
+<p>3、Node 2 将文档返回给 Node 1 ，然后将文档返回给客户端。</p>
+<p>在处理读取请求时，协调结点在每次请求的时候都会通过轮询所有的副本分片来达到负载均衡。</p>
+<p>在文档被检索时，已经被索引的文档可能已经存在于主分片上但是还没有复制到副本分片。 在这种情况下，副本分片可能会报告文档不存在，但是主分片可能成功返回文档。 一旦索引请求成功返回给用户，文档在主分片和副本分片都是可用的。</p>
+<ul>
+<li><strong>局部更新文档</strong></li>
+</ul>
+<p><img src="https://www.elastic.co/guide/cn/elasticsearch/guide/current/images/elas_0404.png" alt="avator"></p>
+<p>以下是部分更新一个文档的步骤：</p>
+<ol>
+<li>客户端向 Node 1 发送更新请求。</li>
+<li>它将请求转发到主分片所在的 Node 3 。</li>
+<li>Node 3 从主分片检索文档，修改 _source 字段中的 JSON ，并且尝试重新索引主分片的文档。 如果文档已经被另一个进程修改，它会重试步骤 3 ，超过 retry_on_conflict 次后放弃。</li>
+<li>如果 Node 3 成功地更新文档，它将新版本的文档并行转发到 Node 1 和 Node 2 上的副本分片，重新建立索引。 一旦所有副本分片都返回成功， Node 3 向协调节点也返回成功，协调节点向客户端返回成功。</li>
+</ol>
+<ul>
+<li><strong>多文档模式</strong><br><img src="https://www.elastic.co/guide/cn/elasticsearch/guide/current/images/elas_0405.png" alt="avator"></li>
+</ul>
+<p>以下是使用单个 mget 请求取回多个文档所需的步骤顺序：</p>
+<ol>
+<li>客户端向 Node 1 发送 mget 请求。</li>
+<li>Node 1 为每个分片构建多文档获取请求，然后并行转发这些请求到托管在每个所需的主分片或者副本分片的节点上。一旦收到所有答复， Node 1 构建响应并将其返回给客户端。</li>
+</ol>
+<p>参考文档：<a target="_blank" rel="noopener" href="https://www.elastic.co/guide/cn/elasticsearch/guide/current/distrib-read.html">https://www.elastic.co/guide/cn/elasticsearch/guide/current/distrib-read.html</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/12/13/elasticsearch%E9%9B%86%E7%BE%A4/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/timg.jpeg">
+      <meta itemprop="name" content="七月">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="七月的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/12/13/elasticsearch%E9%9B%86%E7%BE%A4/" class="post-title-link" itemprop="url">elasticsearch集群</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2020-12-13 16:51:09 / Modified: 16:51:29" itemprop="dateCreated datePublished" datetime="2020-12-13T16:51:09+08:00">2020-12-13</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="ES集群"><a href="#ES集群" class="headerlink" title="ES集群"></a>ES集群</h1><p>一个运行中的 Elasticsearch 实例称为一个节点，而集群是由一个或者多个拥有相同 cluster.name 配置的节点组成， 它们共同承担数据和负载的压力。当有节点加入集群中或者从集群中移除节点时，集群将会重新平均分布所有的数据。</p>
+<p>当一个节点被选举成为 主 节点时， 它将负责管理集群范围内的所有变更，例如增加、删除索引，或者增加、删除节点等。 主节点并不需要涉及到文档级别的变更和搜索等操作，所以扛得住大流量，任何节点都可以成为主节点。</p>
+<p>作为用户，我们可以将请求发送到 集群中的任何节点 ，包括主节点。 每个节点都知道任意文档所处的位置，并且能够将我们的请求直接转发到存储我们所需文档的节点。 无论我们将请求发送到哪个节点，它都能负责从各个包含我们所需文档的节点收集回数据，并将最终结果返回給客户端。 Elasticsearch 对这一切的管理都是透明的。</p>
+<h1 id="集群健康"><a href="#集群健康" class="headerlink" title="集群健康"></a>集群健康</h1><ul>
+<li>以单机ES为例，查询健康状态<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[root@b91bc2ba35bc config]<span class="comment"># curl -X GET &quot;localhost:9200/_cluster/health&quot;</span></span><br><span class="line">&#123;<span class="string">&quot;cluster_name&quot;</span>:<span class="string">&quot;docker-cluster&quot;</span>,<span class="string">&quot;status&quot;</span>:<span class="string">&quot;yellow&quot;</span>,<span class="string">&quot;timed_out&quot;</span>:<span class="literal">false</span>,<span class="string">&quot;number_of_nodes&quot;</span>:1,<span class="string">&quot;number_of_data_nodes&quot;</span>:1,<span class="string">&quot;active_primary_shards&quot;</span>:1,<span class="string">&quot;active_shards&quot;</span>:1,<span class="string">&quot;relocating_shards&quot;</span>:0,<span class="string">&quot;initializing_shards&quot;</span>:0,<span class="string">&quot;unassigned_shards&quot;</span>:1,<span class="string">&quot;delayed_unassigned_shards&quot;</span>:0,<span class="string">&quot;number_of_pending_tasks&quot;</span>:0,<span class="string">&quot;number_of_in_flight_fetch&quot;</span>:0,<span class="string">&quot;task_max_waiting_in_queue_millis&quot;</span>:0,<span class="string">&quot;active_shards_percent_as_number&quot;</span>:50.0&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;cluster_name&quot;</span>:<span class="string">&quot;docker-cluster&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;status&quot;</span>:<span class="string">&quot;yellow&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;timed_out&quot;</span>:<span class="literal">false</span>,</span><br><span class="line">    <span class="attr">&quot;number_of_nodes&quot;</span>:<span class="number">1</span>,</span><br><span class="line">    <span class="attr">&quot;number_of_data_nodes&quot;</span>:<span class="number">1</span>,</span><br><span class="line">    <span class="attr">&quot;active_primary_shards&quot;</span>:<span class="number">1</span>,</span><br><span class="line">    <span class="attr">&quot;active_shards&quot;</span>:<span class="number">1</span>,</span><br><span class="line">    <span class="attr">&quot;relocating_shards&quot;</span>:<span class="number">0</span>,</span><br><span class="line">    <span class="attr">&quot;initializing_shards&quot;</span>:<span class="number">0</span>,</span><br><span class="line">    <span class="attr">&quot;unassigned_shards&quot;</span>:<span class="number">1</span>,</span><br><span class="line">    <span class="attr">&quot;delayed_unassigned_shards&quot;</span>:<span class="number">0</span>,</span><br><span class="line">    <span class="attr">&quot;number_of_pending_tasks&quot;</span>:<span class="number">0</span>,</span><br><span class="line">    <span class="attr">&quot;number_of_in_flight_fetch&quot;</span>:<span class="number">0</span>,</span><br><span class="line">    <span class="attr">&quot;task_max_waiting_in_queue_millis&quot;</span>:<span class="number">0</span>,</span><br><span class="line">    <span class="attr">&quot;active_shards_percent_as_number&quot;</span>:<span class="number">50</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li>状态对应关系<br>green<br>所有的主分片和副本分片都正常运行。<br>yellow<br>所有的主分片都正常运行，但不是所有的副本分片都正常运行。<br>red<br>有主分片没能正常运行。</li>
+</ul>
+<h1 id="添加索引"><a href="#添加索引" class="headerlink" title="添加索引"></a>添加索引</h1><p>Elasticsearch 添加数据时需要用到 索引 —— 保存相关数据的地方。 索引实际上是指向一个或者多个物理 分片 的 逻辑命名空间 。<br>一个分片是一个 Lucene 的实例，以及它本身就是一个完整的搜索引擎。 我们的文档被存储和索引到分片内，但是应用程序是直接与索引而不是与分片进行交互。</p>
+<p>一个副本分片只是一个主分片的拷贝。副本分片作为硬件故障时保护数据不丢失的冗余备份，并为搜索和返回文档等读操作提供服务。</p>
+<p>在索引建立的时候就已经确定了主分片数（默认5），但是副本分片数可以随时修改。</p>
+<h1 id="水平分片"><a href="#水平分片" class="headerlink" title="水平分片"></a>水平分片</h1><p>主分片的数目在索引创建时就已经确定了下来。实际上，这个数目定义了这个索引能够 存储 的最大数据量。（实际大小取决于你的数据、硬件和使用场景。） 但是，读操作——搜索和返回数据——可以同时被主分片 或 副本分片所处理，所以当你拥有越多的副本分片时，也将拥有越高的吞吐量。</p>
+<p>运行中的集群可以动态调整副本分片的数量，从而拓展节点</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;settings&quot;</span>: &#123;</span><br><span class="line">      <span class="string">&quot;number_of_shards&quot;</span>: 12,<span class="comment">#分片个数，在创建索引不指定时 默认为 5；</span></span><br><span class="line">      <span class="string">&quot;number_of_replicas&quot;</span>: 1 <span class="comment">#数据副本，一般设置为1；</span></span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">PUT /blogs/_settings</span><br><span class="line">&#123;</span><br><span class="line">   <span class="string">&quot;number_of_replicas&quot;</span> : 2</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>参考文档：<a target="_blank" rel="noopener" href="https://www.elastic.co/guide/cn/elasticsearch/guide/current/index.html">https://www.elastic.co/guide/cn/elasticsearch/guide/current/index.html</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/12/13/spring%E6%BA%90%E7%A0%81%E4%B9%8BgetBean/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/timg.jpeg">
+      <meta itemprop="name" content="七月">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="七月的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/12/13/spring%E6%BA%90%E7%A0%81%E4%B9%8BgetBean/" class="post-title-link" itemprop="url">spring源码之getBean</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2020-12-13 16:21:26 / Modified: 16:30:34" itemprop="dateCreated datePublished" datetime="2020-12-13T16:21:26+08:00">2020-12-13</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>spring源码追踪之getBean方法背后都经历了什么。getBean是spring获取bean的重要方法，包括bean循环依赖的处理等。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/12/13/spring%E6%BA%90%E7%A0%81%E4%B9%8BgetBean/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/12/13/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/timg.jpeg">
+      <meta itemprop="name" content="七月">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="七月的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/12/13/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2020-12-13 15:29:11 / Modified: 16:41:18" itemprop="dateCreated datePublished" datetime="2020-12-13T15:29:11+08:00">2020-12-13</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/12/13/hello-world/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="七月"
+      src="/images/timg.jpeg">
+  <p class="site-author-name" itemprop="name">七月</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">tags</span>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">七月</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
